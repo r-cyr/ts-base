@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "baseUrl": ".",
+    "declaration": true
+  },
+  "exclude": ["lib", "node_modules", "**/**.spec.ts"]
+}
